@@ -27,6 +27,7 @@ function startUp()
      check1.disabled=false;
   start.disabled=true;
   reset.disabled=false;
+  startFact.disabled=false;
      newFact();
 }
 
