@@ -1,7 +1,9 @@
  
 var factNum=5;// the starting number to be multiplied by; the 'answer'
-var factSet=4;  // 
-
+  // 
+var factSequence=[2,5,4,9,3,6,7,8];
+var factIndex=0;
+var factSet=factSequence[factIndex];
 function createMultImage()
 {
   let multPicHTML="";
