@@ -39,7 +39,8 @@ function newFact()
 }
 // maybe that should be in "check answer" or in both. 
 else 
-  {p1.innerHTML="fact number  is: " + factNum;
+  {
+    // p1.innerHTML="fact number  is: " + factNum;
    
   feedback.innerHTML="The picture represents  ";
   factor2.innerHTML= factSet + " x " + '<input type="number" id="factor" size="1" maxlength="2"/>';

@@ -4,9 +4,11 @@
   border-radius: 12px;
   background-color: #4CA450;   
   display:block;
-  margin:auto;
+   
   padding: 10px;
   min-width:100px;
+  margin: 15px;
+
 }
  .item
  {
