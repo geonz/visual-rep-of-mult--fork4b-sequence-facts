@@ -24,10 +24,13 @@ function startUp()
      A1.style.display="none";
   check2.style.display="none";
   factNum=1;
-     check1.disabled=false;
+    check1.disabled=false;
   start.disabled=true;
   reset.disabled=false;
   startFact.disabled=false;
+   
+   
+
      newFact();
 }
 
@@ -42,7 +45,7 @@ else
   {
     // p1.innerHTML="fact number  is: " + factNum;
    
-  feedback.innerHTML="The picture represents  ";
+
   factor2.innerHTML= factSet + " x " + '<input type="number" id="factor" size="1" maxlength="2"/>';
    A1.style.display="none";
   check2.style.display="none";
@@ -135,5 +138,4 @@ newFact();
  
 } 
 
- 
-newFact(); 
+  
