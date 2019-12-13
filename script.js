@@ -47,7 +47,6 @@ else
    A1.innerHTML=  factSet + " x " + factNum + " =" + ' <input type="number" id="multAnswer"  size="1" maxlength="2"/>';
  check1.disabled=false;
 }
-//changeBackgrounds('section > div', 'palevioletred');
 
 changeMultiples('section > div','palevioletred','yellow');
 }

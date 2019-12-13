@@ -44,6 +44,7 @@ body {
 }
 .centerMult 
 { 
+  min-width: 200px;
  display: grid;
      grid-template-columns: repeat(10, minmax(10px, 1fr));
      grid-template-rows: repeat(10, minmax(10px, 1fr));
