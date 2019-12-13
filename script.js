@@ -47,7 +47,7 @@ else
    A1.innerHTML=  factSet + " x " + factNum + " =" + ' <input type="number" id="multAnswer"  size="1" maxlength="2"/>';
  check1.disabled=false;
 }
-
+createMultImage();
 changeMultiples('section > div','palevioletred','yellow');
 }
 
@@ -138,5 +138,5 @@ newFact();
  
 } 
 
- createMultImage();
+ 
 newFact(); 
