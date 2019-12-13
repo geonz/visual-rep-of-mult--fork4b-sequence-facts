@@ -127,7 +127,7 @@ function checkAnswer()
   {
     feedback.innerHTML="That's right!";
     // need a "next fact" or 
-    factNum+=9;
+    factNum+=1;
 newFact();
     // go to the next one.   
   }
