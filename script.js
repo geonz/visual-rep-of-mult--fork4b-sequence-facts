@@ -60,18 +60,13 @@ function createMultImage()
    let numMax = factSet*10;
   for (let num=1; num<=numMax; num++)
   { 
-     //multPicHTML +=' <div class="item"> ' + num + ' </div>'; 
+     //multPicHTML +=' <div class="item"> ' + num + ' </div>';
      // oh, let's give them each an ID
      multPicHTML +='  <div class = "item" id="d'+num + '" >' + num + ' </div>'; 
-     
-  }
+       }
  
   multPic.innerHTML=multPicHTML;
-    // section > div: nth-child(4n)
-    // saying section makes everythin gbreak here. I rhink b/x THAT IS supposed ot be in css.
-    {
-
-    } 
+    
 }
  
  

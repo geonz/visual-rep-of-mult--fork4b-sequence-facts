@@ -34,7 +34,7 @@ body {
 { 
   /* this is where the images will be.  In othe rbranches it will be number chart*/ 
   text-align:center;
-  background-color: palevioletred;
+  background-color:darkorchid;
   grid-column-start: 2;
   grid-column-end: 4;
       border: 4px solid black;
